@@ -1,0 +1,1000 @@
+ 1008  git commit -m "v0.5"
+ 1009  git push
+ 1010  clear
+ 1011  cd DIRA
+ 1012  cd DAIR
+ 1013  ls
+ 1014  ls -alt
+ 1015  cp lkwan.pem  ..
+ 1016  git rm lkwan.pem 
+ 1017  history
+ 1018  git commit -m "v0.5"
+ 1019  git status
+ 1020  pwd
+ 1021  cd ..
+ 1022  pwd
+ 1023  git status
+ 1024  git commit -m "v0.5"
+ 1025  git push
+ 1026  mkdir DAIR
+ 1027  mv lkwan.pem 
+ 1028  mv lkwan.pem  DAIR
+ 1029  ls
+ 1030  cd DAIR
+ 1031  history > ssh.info
+ 1032  vi ssh.info
+ 1033  ls
+ 1034  mv lkwan.pem  dair.pem
+ 1035  vi ssh.info 
+ 1036  cat ssh.info 
+ 1037  ssh -i ./dair.pem  ubuntu@208.75.74.240
+ 1038  ls
+ 1039  git add ssh.info 
+ 1040  ls
+ 1041  history
+ 1042  git commit -m "v0.5"
+ 1043  git push
+ 1044  ls
+ 1045  git status
+ 1046  vi ../.gitignore
+ 1047  git status
+ 1048  cat
+ 1049  ls
+ 1050  cat dair.pem 
+ 1051  history
+ 1052  ping 208.75.74.240
+ 1053  cd
+ 1054  alias
+ 1055  vi .bashrc 
+ 1056  history
+ 1057  ssh -i ~/cra/DAIR/dair.pem  ubuntu@208.75.74.240
+ 1058  history
+ 1059  vi .bashrc 
+ 1060  bash
+ 1061  exit
+ 1062  cd Downloads/
+ 1063  ls
+ 1064  mkdir ../DAIR
+ 1065  mv lkwan.pem  ../DAIR/
+ 1066  cd 
+ 1067  cd DAi
+ 1068  cd DAIR
+ 1069  ls
+ 1070  ls -alt
+ 1071  chmod 600 lkwan.pem 
+ 1072  ls -alt
+ 1073  chmod 400 lkwan.pem 
+ 1074  ls -alt
+ 1075  curl -d "appID={appID}&apiKey={apiKey}&stopNo=7659" https://api.octranspo1.com/v1.2/GetRouteSummaryForStop
+ 1076  curl -d "appID={}&apiKey={apiKey}&stopNo=7659" https://api.octranspo1.com/v1.2/GetRouteSummaryForStop
+ 1077  curl -d "appID={c896772b}&apiKey={66056237e93c214110db972272a1ff88}&stopNo=7659" https://api.octranspo1.com/v1.2/GetRouteSummaryForStop
+ 1078  curl -d "appID=c896772b&apiKey=66056237e93c214110db972272a1ff88&stopNo=7659" https://api.octranspo1.com/v1.2/GetRouteSummaryForStop
+ 1079  curl -d "appID=c896772b&apiKey=66056237e93c214110db972272a1ff88&stopNo=3035" https://api.octranspo1.com/v1.2/GetRouteSummaryForStop
+ 1080  man curl
+ 1081  clear
+ 1082  history
+ 1083  curl -d "appID=c896772b&apiKey=66056237e93c214110db972272a1ff88&stopNo=3035" https://api.octranspo1.com/v1.2/GetRouteSummaryForStop
+ 1084  cd ..
+ 1085  ls
+ 1086  mkdir OCTranspo
+ 1087  cd OCTranspo/
+ 1088  ls
+ 1089  vi q.sh
+ 1090  chmod a+x q.sh
+ 1091  ./q.sh 
+ 1092  history
+ 1093  curl -d "appID=c896772b&apiKey=66056237e93c214110db972272a1ff88&stopNo=3035" https://api.octranspo1.com/v1.2/GetRouteSummaryForStop
+ 1094  history
+ 1095  curl -d "appID=c896772b&apiKey=66056237e93c214110db972272a1ff88&stopNo=3035" https://api.octranspo1.com/v1.2/GetRouteSummaryForSt
+ 1096  opcurl -d "appID=c896772b&apiKey=66056237e93c214110db972272a1ff88&stopNo=3035" https://api.octranspo1.com/v1.2/GetRouteSummaryForSt
+ 1097  history
+ 1098  history | grep curl
+ 1099  curl -k https://lkwan-weather-cra-arc-apicast-staging.dev.api.canada.ca/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM
+ 1100  curl -k https://lkwan-weather-cra-arc-apicast-staging.dev.api.canada.ca/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM -v
+ 1101  lkwan-weather-cra-arc-apicast-staging.dev.api.canada.calkwan-weather-cra-arc-apicast-staging.dev.api.canada.ca
+ 1102  ping lkwan-weather-cra-arc-apicast-staging.dev.api.canada.ca
+ 1103  dig
+ 1104  dig lkwan-weather-cra-arc-apicast-staging.dev.api.canada.ca
+ 1105  curl -k https://35.183.160.248/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM -v
+ 1106  curl -k https://35.182.160.18/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM -v
+ 1107  curl -k https://35.182.160.18/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM
+ 1108  dig lkwan-weather-cra-arc-apicast-staging.dev.api.canada.ca
+ 1109  curl -k https://35.182.165.18/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM
+ 1110  history
+ 1111  curl -k https://lkwan-weather-cra-arc-apicast-staging.dev.api.canada.ca/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM
+ 1112  curl -k https://lkwan-weather-cra-arc-apicast-staging.dev.api.canada.ca/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM -v
+ 1113  curl -k https://lkwan-weather-cra-arc-apicast-staging.dev.api.canada.ca/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM -v > aa
+ 1114  curl -k https://10.128.4.98/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM
+ 1115  cd cra
+ 1116  ls
+ 1117  cd BN
+ 1118  ls
+ 1119  ./bn.2
+ 1120  ls
+ 1121  cat bn.0
+ 1122  ./bn.0
+ 1123  ls
+ 1124  cat bn.0
+ 1125  php
+ 1126  apt-get update && apt-get upgrade
+ 1127  sudo apt-get update && apt-get upgrade
+ 1128  sudo apt-get update && sudo apt-get upgrade
+ 1129  sudo apt-get install php
+ 1130  php
+ 1131  php -S localhost:8000
+ 1132  pwd
+ 1133  mkdir oauth2
+ 1134  cd oauth2/
+ 1135  ls
+ 1136  mkdir php
+ 1137  cd php
+ 1138  vi index.php
+ 1139  vim
+ 1140  php -S localhost:8000 index.php 
+ 1141  php -S localhost:8000 index.php
+ 1142  vim
+ 1143  ifconfig
+ 1144  history | grep apache
+ 1145  sudo service apache2 status
+ 1146  sudo service apache2 start
+ 1147  sudo service apache2 status
+ 1148  ls
+ 1149  pwd
+ 1150  cd oauth2/
+ 1151  ls
+ 1152  cd php
+ 1153  ls
+ 1154  mkdir ex1
+ 1155  mv index.php 
+ 1156  mv index.php ex1/
+ 1157  touch index.php
+ 1158  history | grep php
+ 1159  php -S localhost:8000
+ 1160  cd ex1/
+ 1161  php -S localhost:8000
+ 1162  ls
+ 1163  vi index.php 
+ 1164  ls
+ 1165  vim index.php 
+ 1166  php -S localhost:8000
+ 1167  cd ..
+ 1168  ls
+ 1169  cd
+ 1170  cd sample-oauth2-client/
+ 1171  ls
+ 1172  ls -alt
+ 1173  vi github.php 
+ 1174  less github.php 
+ 1175  !
+ 1176  cd ..
+ 1177  rm -rf sample-oauth2-client/
+ 1178  cd ex1/
+ 1179  ls
+ 1180  cd php
+ 1181  pwd
+ 1182  cd oauth2/
+ 1183  ls
+ 1184  cd php
+ 1185  ls
+ 1186  cd ex1
+ 1187  ls
+ 1188  vi index.php 
+ 1189  history
+ 1190  php -S localhost:8000
+ 1191  vi index.php 
+ 1192  php -S localhost:8000
+ 1193  vi index.php 
+ 1194  php -S localhost:8000
+ 1195  vi index.php 
+ 1196  php -S localhost:8000
+ 1197  cd
+ 1198  ls
+ 1199  pwd
+ 1200  cd oauth2/
+ 1201  ls
+ 1202  cd sample-oauth2-client/
+ 1203  ls
+ 1204  history
+ 1205  php -S localhost:8000
+ 1206  ls
+ 1207  pwd
+ 1208  cd oauth2/
+ 1209  ls
+ 1210  cd php
+ 1211  ls
+ 1212  histor
+ 1213  php -S localhost:8000
+ 1214  vi index.php 
+ 1215  git clone https://github.com/aaronpk/sample-oauth2-client.git
+ 1216  cd sample-oauth2-client/
+ 1217  ls
+ 1218  more README.md 
+ 1219  ls
+ 1220  git clone https://github.com/aaronpk/sample-oauth2-client.git
+ 1221  cd
+ 1222  cd oauth2/
+ 1223  git clone https://github.com/aaronpk/sample-oauth2-client.git
+ 1224  cd sample-oauth2-client/
+ 1225  ls
+ 1226  git clone https://github.com/CAAPIM/Tutorials.git
+ 1227  cd Tutorials/
+ 1228  ls
+ 1229  cd CA-API-Gateway-Policy/
+ 1230  ls
+ 1231  cd Design-Patterns-And-Testing/
+ 1232  ls
+ 1233  vi README.md 
+ 1234  ls
+ 1235  history | grep sh
+ 1236  pwd
+ 1237  mkdir node
+ 1238  cd node
+ 1239  ls
+ 1240  npm 
+ 1241  sudo apt install npm
+ 1242  npm i oauth2-client
+ 1243  npm i client-oauth2
+ 1244  ls
+ 1245  cd node_modules/
+ 1246  ls
+ 1247  npm rm oauth2-client
+ 1248  ls
+ 1249  cd ..
+ 1250  vi clientOAuth2
+ 1251  vi clientOAuth2.js
+ 1252  node clientOAuth2.js 
+ 1253  vi clientOAuth2.js
+ 1254  node clientOAuth2.js 
+ 1255  npm i client-oauth2 --save
+ 1256  npm install
+ 1257  ls
+ 1258  mkdir OAuth2
+ 1259  cd OAuth2/
+ 1260  npm inital
+ 1261  npm initial
+ 1262  ls
+ 1263  npm initial
+ 1264  npm init
+ 1265  cd ..
+ 1266  mv OAuth2/ oauth2
+ 1267  cd oauth2/
+ 1268  npm init
+ 1269  ls
+ 1270  history
+ 1271  npm i client-oauth2 --save
+ 1272  mv ../clientOAuth2.js  .
+ 1273  ls
+ 1274  node clientOAuth2.js 
+ 1275  ls
+ 1276  cp clientOAuth2.js  index.js
+ 1277  vi index.js 
+ 1278  node index.js 
+ 1279  vi index.js 
+ 1280  node index.js 
+ 1281  vi index.js 
+ 1282  node index.js 
+ 1283  vi index.js 
+ 1284  node index.js 
+ 1285  vi index.js 
+ 1286  node index.js 
+ 1287  vi index.js 
+ 1288  clear
+ 1289  exit
+ 1290  ab
+ 1291  man ab
+ 1292  clear
+ 1293  vi 3scale1.sh
+ 1294  chmod a+rx 3.sh
+ 1295  chmod a+rx 3*.sh
+ 1296  ./3scale1.sh 
+ 1297  ls
+ 1298  vi 3scale1.sh 
+ 1299  ./3scale1.sh 
+ 1300  vi 3scale1.sh 
+ 1301  ./3scale1.sh 
+ 1302  vi 3scale1.sh 
+ 1303  ./3scale1.sh 
+ 1304  vi 3scale1.sh 
+ 1305  cp 3scale1.sh  3.orig.sh
+ 1306  vi 3.orig.sh 
+ 1307  ./3.orig.sh 
+ 1308  vi 3.orig.sh 
+ 1309  ./3.orig.sh 
+ 1310  vi 3.orig.sh 
+ 1311  ./3.orig.sh 
+ 1312  vi 3.orig.sh 
+ 1313  ./3.orig.sh 
+ 1314  vi 3.orig.sh 
+ 1315  ./3.orig.sh 
+ 1316  ls
+ 1317  vi 3.orig.sh 
+ 1318  ./3.orig.sh 
+ 1319  vi 3.orig.sh 
+ 1320  ./3.orig.sh 
+ 1321  vi 3.orig.sh 
+ 1322  history | grep git
+ 1323  ab -c 100 -n 1000 https://52.237.16.126
+ 1324  ab -c 100 -n 1000 "https://52.237.16.126"
+ 1325  ab -k -c 100 -n 1000  "https://52.237.16.126/healthcheck"
+ 1326  ping  52.237.16.126
+ 1327  ab -c 100 -n 1000 "https://lkwan-apache-cra-arc-apicast-production.beta.api.canada.ca:443/?user_key=ae02bf8c44e4adedcee439990dc0a10e"
+ 1328  ab -c 100 -n 1000 "https://www.cbc.ca"
+ 1329  ab -c 100 -n 1000 "http://www.cbc.ca"
+ 1330  ab -c 100 -n 1000 "http://localhoast"
+ 1331  ab -c 100 -n 1000 http://localhoast
+ 1332  history
+ 1333  ab -c 100 -n 1000 "http://127.0.0.1"
+ 1334  ab -c 100 -n 1000 "https://127.0.0.1"
+ 1335  history
+ 1336  history | grep PQyeMP
+ 1337  curl "http://dataservice.accuweather.com/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM"
+ 1338  curl "https -k://dataservice.accuweather.com/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM"
+ 1339  ls
+ 1340  vi 3.orig.sh 
+ 1341  ls
+ 1342  3.orig.sh
+ 1343  ./3.orig.sh
+ 1344  history
+ 1345  grep ab *
+ 1346  history | grep ab | grep PQye
+ 1347  ab  -c 10 -n 500 https://accuweather-topcities-cra-arc-apicast-production.beta.api.canada.ca:443/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn
+ 1348  ab  -c 10 -n 500 "https://dataservice.accuweather.com/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM" 
+ 1349  history > nov4.sh
+ 1350  vi nov4.sh
+ 1351  history > history.keep
+ 1352  vi nov4.sh 
+ 1353  a+rxw nov4.sh
+ 1354  chmod a+rwx no*.sh
+ 1355  ./nov4.sh
+ 1356  curl www.cbc.ca
+ 1357  curl www.cbc.caasdf
+ 1358  ping cbc.ca
+ 1359  ab -k -c 100 -n 1000  "https://cbc.ca"
+ 1360  ab "https://cbc.ca"
+ 1361  ab "http://cbc.ca"
+ 1362  ab http://cbc.ca
+ 1363  q
+ 1364  history | grep ab
+ 1365  ab  -c 100 -n 1000 "https://dataservice.accuweather.com:80/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07
+ 1366  I1VV4Ocn6APbM"
+ 1367  ab  -c 10 -n 200 https://accuweather-topcities-cra-arc-apicast-staging.beta.api.canada.ca:443/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn
+ 1368  ab -k -c 100 -n 1000 "https://dataservice.accuweather.com:80/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM" 
+ 1369  history | grep ab | less
+ 1370  !
+ 1371  history | gre[ accuw
+ 1372  history | grep accuw
+ 1373  curl "http://dataservice.accuweather.com/currentconditions/v1/topcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM"
+ 1374  ping dataservice.accuweather.com
+ 1375  ping google.ca
+ 1376  history | grep proxy
+ 1377  hisotry | grep ab
+ 1378  history | grep ab
+ 1379  ab  -c 10 -n 500 https://accuweather-topcities-cra-arc-apicast-production.beta.api.canada.ca:443/currentconditions/v1/t
+ 1380  opcities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn
+ 1381  man ab
+ 1382  history
+ 1383  ls
+ 1384  ./nov4.sh 
+ 1385  cat nov4.sh 
+ 1386  man ab
+ 1387  cat nov4.sh 
+ 1388  ./nov4.sh 
+ 1389  cat nov4.sh 
+ 1390  ab  -c 10 -n 500 "https://dataservice.accuweather.com/currentconditions/v1/top
+ 1391  cities/50?apikey=PQyeMPSetmN2T0jzc07I1VV4Ocn6APbM" man 
+ 1392  man ab
+ 1393  ab
+ 1394  dsfasdf
+ 1395  history
+ 1396  sudo apt-get update
+ 1397  javac
+ 1398  javac --version
+ 1399  jdk
+ 1400  java -version
+ 1401  pwd
+ 1402  mkdir elasticsearch
+ 1403  cd elasticsearch/
+ 1404  wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+ 1405  audo apt-key list
+ 1406  man apt-key
+ 1407  audo apt-key list
+ 1408  sudo apt-key list
+ 1409  sudo apt-key list| grep elast
+ 1410  sudo apt-key list| less
+ 1411  sudo apt-get install apt-transport-https
+ 1412  ls /etc/apt
+ 1413  ls /etc/apt/sources.list.d/
+ 1414  echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+ 1415  sudo cat /etc/apt/sources.list.d/elastic-7.x.list 
+ 1416  sudo cat /etc/apt/sources.list.d/*.list
+ 1417  sudo apt-get update && sudo apt-get install elasticsearch
+ 1418  cd /etc
+ 1419  cd elasticsearch/
+ 1420  cd
+ 1421  sudo vi /etc/elasticsearch/elasticsearch.yml
+ 1422  sudo /bin/systemctl daemon-reload
+ 1423  sudo /bin/systemctl enable elasticsearch.service
+ 1424  sudo /bin/systemctl start elasticsearch.service
+ 1425  wget http://media.sundog-soft.com/es/shakes-mapping.json
+ 1426  curl -XPUT 127.0.0.1:9200/shakespeare --data-binary @shakes-mapping.json
+ 1427  wget http://media.sundog-soft.com/es/shakespeare.json
+ 1428  curl -XPOST '127.0.0.1:9200/shakespeare/_bulk' --data-binary @shakespeare.json    
+ 1429  curl -XGET '127.0.0.1:9200/shakespeare/_search?pretty' -d '
+ 1430  {
+ 1431  "query" : {
+ 1432  "match_phrase" : {
+ 1433  "text_entry" : "to be or not to be"
+ 1434  }
+ 1435  }
+ 1436  }
+ 1437  '
+ 1438  curl -XGET '127.0.0.1:9200/shakespeare/_search?pretty' -d '
+ 1439  {
+ 1440  "query" : {
+ 1441  "match_phrase" : {
+ 1442  "text_entry" : "to be or not to be"
+ 1443  }
+ 1444  }
+ 1445  }
+ 1446  '
+ 1447  history
+ 1448  curl -XPOST '127.0.0.1:9200/shakespeare/_bulk' --data-binary @shakespeare.json    
+ 1449  ls
+ 1450  cd elasticsearch/
+ 1451  history
+ 1452  wget http://media.sundog-soft.com/es/shakes-mapping.json
+ 1453  ls
+ 1454  curl -XPUT 127.0.0.1:9200/shakespeare --data-binary @shakes-mapping.json
+ 1455  ls
+ 1456  curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/shakespeare 
+ 1457  --data-binary @shakes-mapping.json
+ 1458  curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/shakespeare --data-binary @shakes-mapping.json
+ 1459  history | grep json
+ 1460  wget http://media.sundog-soft.com/es7/shakespeare_7.0.json
+ 1461  curl -H 'Content-Type: application/json' -XPOST '127.0.0.1:9200/shakespeare/_bulk?pretty' --data-binary @shakespeare_7.0.json
+ 1462  curl -H 'Content-Type: application/json' -XGET '127.0.0.1:9200/shakespeare/_search?pretty' -d '
+ 1463  {
+ 1464  "query" : {
+ 1465  "match_phrase" : {
+ 1466  "text_entry" : "to be or not to be"
+ 1467  }
+ 1468  }
+ 1469  }
+ 1470  '
+ 1471  history
+ 1472  pwd
+ 1473  cd elasticsearch/
+ 1474  ls
+ 1475  history > t1.sh
+ 1476  vi t1.sh 
+ 1477  chmod a+rwx t1.sh
+ 1478  ./t1.sh
+ 1479  cd /usr/share
+ 1480  ls
+ 1481  cd elasticsearch/
+ 1482  ls
+ 1483  ls -alt
+ 1484  cd lib
+ 1485  ls
+ 1486  ls -alt
+ 1487  cd ..
+ 1488  cd plugins/
+ 1489  ls
+ 1490  history
+ 1491  history| less
+ 1492  sudo service eleasticsearch restart
+ 1493  sudo service elasticsearch restart
+ 1494  sudo service elasticsearch status
+ 1495  hihistory
+ 1496  history
+ 1497  ls
+ 1498  cd elasticsearch/
+ 1499  ls
+ 1500  cd /user
+ 1501  sudo su
+ 1502  pwd
+ 1503  cd /home/
+ 1504  ls
+ 1505  cd
+ 1506  ls
+ 1507  cd elasticsearch/
+ 1508  ls
+ 1509  history
+ 1510  curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/
+ 1511  curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/_nodes
+ 1512  curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/_nodes| jq
+ 1513  sudo apt  install jq
+ 1514  curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/_nodes| jq
+ 1515  curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/_nodes/plugin | jq
+ 1516  .1:9200/_nodes/plugin | jq
+ 1517  history
+ 1518  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200 
+ 1519  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_nodes 
+ 1520  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_nodes | jq
+ 1521  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_nodes | jq| less
+ 1522  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_nodes | jq
+ 1523  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_nodes | jq | less
+ 1524  man jq
+ 1525  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_nodes | jq -f a.out
+ 1526  vi a.out
+ 1527  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_nodes | jq 
+ 1528  man jq
+ 1529  ls -alt
+ 1530  history
+ 1531  history | grep ab
+ 1532  history | grep -i gst
+ 1533  history | grep curl
+ 1534  history | grep cache
+ 1535  history | grep gst
+ 1536  history | grep -i gst
+ 1537  elasticsearch
+ 1538  curl http://localhost:9200
+ 1539  history
+ 1540  sudo service elasticsearch statussudo service elasticsearch status
+ 1541  sudo service elasticsearch status
+ 1542  sudo service elasticsearch start
+ 1543  sudo service elasticsearch status
+ 1544  cd
+ 1545  cd elasticsearch
+ 1546  ls
+ 1547  cat t1.sh
+ 1548  history > install.sh
+ 1549  vi install.sh 
+ 1550  history > start.sh
+ 1551  vi start.sh 
+ 1552  curl http://localhost:9200?pretty
+ 1553  cd
+ 1554  cd Downloads/
+ 1555  ls
+ 1556  tar xvf kibana-7.5.0-linux-x86_64.tar.gz 
+ 1557  cd kibana-7.5.0-linux-x86_64/
+ 1558  ls
+ 1559  cd config/
+ 1560  ls
+ 1561  vi kibana.yml 
+ 1562  cd ..
+ 1563  ./bin/kibana
+ 1564  history
+ 1565  curl http://localhost:9200?pretty
+ 1566  udo service elasticsearch status
+ 1567  sudo service elasticsearch status
+ 1568  sudo service elasticsearch start
+ 1569  cd ..
+ 1570  cd
+ 1571  cd Downloads/
+ 1572  ls
+ 1573  rm -rf kibana-7.5.0-linux-x86_64.tar.gz 
+ 1574  tar xvf kibana-7.4.2-linux-x86_64.tar.gz 
+ 1575  cd kibana-7.4.2-linux-x86_64/
+ 1576  ./bin/kibana
+ 1577  history
+ 1578  sudo service elasticsearch status
+ 1579  sudo service elasticsearch start
+ 1580  cd Downloads/
+ 1581  ls
+ 1582  mv kibana-7.4.2-linux-x86_64 ~
+ 1583  cd
+ 1584  cd kibana-7.4.2-linux-x86_64/
+ 1585  ls
+ 1586  cd bin
+ 1587  ls
+ 1588  ./kibana
+ 1589  cd Downloads/
+ 1590  ls
+ 1591  ls -alt | less
+ 1592  unzip 9781789954395_Code.zip 
+ 1593  cd 9781789954395_Code/
+ 1594  ls
+ 1595  cd Chapter
+ 1596  cd Chapter03
+ 1597  ls
+ 1598  vi products_
+ 1599  vi *.*
+ 1600  ls
+ 1601  cd products_
+ 1602  cd products_data/
+ 1603  ls
+ 1604  cd files/
+ 1605  ls
+ 1606  vi products.csv 
+ 1607  ls
+ 1608  cd ..
+ 1609  ls
+ 1610  cd ..
+ 1611  ls
+ 1612  cd products_with_features_data/
+ 1613  ls
+ 1614  cd files/
+ 1615  ls
+ 1616  cd ..
+ 1617  ls
+ 1618  pwd
+ 1619  history
+ 1620  history | grep start
+ 1621  sudo service elasticsearch start
+ 1622  cd kibana-7.4.2-linux-x86_64/
+ 1623  ls
+ 1624  ./bin/kibana
+ 1625  mkdir cra
+ 1626  cd cra
+ 1627  ls
+ 1628  cd ..
+ 1629  ls
+ 1630  mkdir CRA_December
+ 1631  cd CRA_December/
+ 1632  vi azure.login.note
+ 1633  history
+ 1634  sudo service elasticsearch start;cd kibana-7.4.2-linux-x86_64/;./bin/kibana
+ 1635  history
+ 1636  cd
+ 1637  pwd
+ 1638  ls
+ 1639  cd Downloads/
+ 1640  ls
+ 1641  rm Tax-Document_*.pdf
+ 1642  ls
+ 1643  rm Confirmation_*.pdf
+ 1644  ls
+ 1645  mv 9781789954395_Code ~/
+ 1646  cd
+ 1647  mkdir elasticSearch
+ 1648  mv 9781789954395_Code/ elastic
+ 1649  ls
+ 1650  ls -alt
+ 1651  ls
+ 1652  cd elastic
+ 1653  ls
+ 1654  cd ..
+ 1655  ls
+ 1656  cd elasticSearch/
+ 1657  ls
+ 1658  cd ..
+ 1659  rmdir elasticSearch/
+ 1660  ls
+ 1661  cd elasticsearch/
+ 1662  ls
+ 1663  ls -alt
+ 1664  mv ../elastic books
+ 1665  cd books/
+ 1666  ls
+ 1667  mkdir completeGuide
+ 1668  mv * completeGuide/
+ 1669  ls
+ 1670  cd completeGuide/
+ 1671  ls
+ 1672  cd ..
+ 1673  ls
+ 1674  cat t1.sh 
+ 1675  vi t1.sh
+ 1676  ./t1.sh
+ 1677  vi t1.sh
+ 1678  ./t1.sh
+ 1679  ./t1.sh| less
+ 1680  cd /user
+ 1681  which elasticsearch
+ 1682  elasticsearch
+ 1683  history
+ 1684  sudo service elasticsearch status
+ 1685  ls
+ 1686  cd /usr/share/elasticsearch/bin/
+ 1687  ls
+ 1688  history | grep head
+ 1689  cd
+ 1690  history
+ 1691  cd elasticsearch/
+ 1692  ls
+ 1693  vi t1.sh 
+ 1694  ./t1.sh
+ 1695  git clone git://github.com/mobz/elasticsearch-head.git
+ 1696  cd elasticsearch-head/
+ 1697  ls
+ 1698  npm 
+ 1699  npm install
+ 1700  npm run start
+ 1701  history
+ 1702  history | start
+ 1703  history | grep start
+ 1704  sudo service elasticsearch restart
+ 1705  cd /etc
+ 1706  cd elasticsearch/
+ 1707  ls
+ 1708  cd /usr
+ 1709  cd share/
+ 1710  ls
+ 1711  cd elasticsearch/
+ 1712  ls
+ 1713  cd plugins/
+ 1714  ls
+ 1715  ls -alt
+ 1716  sudo su
+ 1717  cd
+ 1718  ls
+ 1719  cd elasticsearch/
+ 1720  ls
+ 1721  cd elasticsearch-head/
+ 1722  ls
+ 1723  cd ..
+ 1724  mkdir test
+ 1725  cd test
+ 1726  git clone https://github.com/mobz/elasticsearch-head.git
+ 1727  ls
+ 1728  cd ..
+ 1729  cd elasticsearch/
+ 1730  ls
+ 1731  history
+ 1732  history | grep install
+ 1733  sudo /usr/share/elasticsearch/bin/elasticsearch install elasticsearch-head/
+ 1734  sudo /usr/share/elasticsearch/bin/elasticsearch install elasticsearch-head
+ 1735  sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install elasticsearch-head
+ 1736  sudo /usr/share/elasticsearch/bin/elasticsearch-plugin -install elasticsearch-head
+ 1737  sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install elasticsearch-head
+ 1738  sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install elasticsearch-head -v
+ 1739  sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install ./elasticsearch-head -v
+ 1740  history
+ 1741  sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install mobz/elasticsearch-head
+ 1742  cd elasticsearch-head/
+ 1743  ls
+ 1744  vi README.textile 
+ 1745  history | grep status
+ 1746  sudo service elasticsearch status
+ 1747  cd kibana-7.4.2-linux-x86_64/
+ 1748  ls
+ 1749  ./bin/kibana
+ 1750  ls
+ 1751  rm shakes*.json
+ 1752  ls
+ 1753  rm h.1
+ 1754  cat nov4.sh
+ 1755  mv nov4.sh ab.nov4.sh
+ 1756  ls
+ 1757  ls -alt
+ 1758  ls
+ 1759  rm history.keep 
+ 1760  ls
+ 1761  ls -alt
+ 1762  ls
+ 1763  cd elasticsearch/
+ 1764  ls
+ 1765  ls -alt
+ 1766  history | grep curl
+ 1767  history | grep ISBN
+ 1768  grep -r ISBN
+ 1769  ls
+ 1770  cd books
+ 1771  ls
+ 1772  grep -r ISBN
+ 1773  cd ..
+ 1774  mv elasticsearch/ es
+ 1775  cd cs
+ 1776  cd es
+ 1777  ls
+ 1778  history | grep curl
+ 1779  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_nodes | jq
+ 1780  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_mapping | jq
+ 1781  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_mapping | less
+ 1782  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_mapping | jq| less
+ 1783  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_mapping | jq | more
+ 1784  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_mapping | jq 
+ 1785  vi aa
+ 1786  man curl
+ 1787  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_mapping -o aa | jq 
+ 1788  vi aa
+ 1789  cat aa | jq
+ 1790  cat aa | jq| less
+ 1791  cat aa | jq -c
+ 1792  cat aa | jq 
+ 1793  cat aa | jq -h
+ 1794  cat aa | jq > bb
+ 1795  vi bb
+ 1796  jq -h
+ 1797  jq aa
+ 1798  jq -c aa
+ 1799  cat aa | jq aab
+ 1800  man jq
+ 1801  cat aa | jq -j bb
+ 1802  cat aa | jq -j
+ 1803  cat aa | jq -j bb
+ 1804  man jq
+ 1805  jq -f aa
+ 1806  cat aa
+ 1807  vi aa
+ 1808  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_mapping/catalog
+ 1809  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_mappings/catalog
+ 1810  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/_mapping/catalog
+ 1811  history
+ 1812  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/_mapping | jq
+ 1813  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/_mapping | jq > aa
+ 1814  cat aa
+ 1815  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/_mapping | jq 
+ 1816  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog | jq 
+ 1817  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/_search | jq 
+ 1818  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/_search/1 | jq 
+ 1819  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/_search/ | jq 
+ 1820  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/_doc/_search/ | jq 
+ 1821  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog.1/_search/ | jq 
+ 1822  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog.my_index/_search/ | jq 
+ 1823  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/_doc/_search/ | jq 
+ 1824  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog.2/_search/ | jq 
+ 1825  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/_doc/_search/ | jq 
+ 1826  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog.1/_search/ | jq 
+ 1827  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog.my_index/_search/ | jq 
+ 1828  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/1/_search/ | jq 
+ 1829  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/2/_search/ | jq 
+ 1830  curl -H 'Content-Type: application/json' -XGET 127.0.0.1:9200/catalog/8/_search/ | jq 
+ 1831  man curl 
+ 1832  history | grep curl | grep { 
+ 1833  curl -d { "tokenizer": "standard", "text": "Tokenizer breaks characters into tokens!"} http://localhost:9200/_analyze -X POST
+ 1834  history
+ 1835  history | grep curl | grep { 
+ 1836  history > post.sh
+ 1837  vi post.sh 
+ 1838  chmod a+x post.sh 
+ 1839  ./post.sh 
+ 1840  history
+ 1841  vi post.sh 
+ 1842  ./post.sh 
+ 1843  vi post.sh 
+ 1844  history | grep localhost
+ 1845  history | grep curl
+ 1846  vi post.sh 
+ 1847  ./post.sh 
+ 1848  vi post.sh 
+ 1849  ./post.sh 
+ 1850  vi post.sh 
+ 1851  ./post.sh 
+ 1852  vi post.sh 
+ 1853  ./post.sh 
+ 1854  vi post.sh 
+ 1855  ./post.sh 
+ 1856  vi post.sh 
+ 1857  ./post.sh 
+ 1858  vi post.sh 
+ 1859  ./post.sh 
+ 1860  vi post.sh 
+ 1861  ./post.sh 
+ 1862  vi post.sh 
+ 1863  ./post.sh 
+ 1864  ./post.sh | jq
+ 1865  vi post.sh 
+ 1866  ./post.sh | jq
+ 1867  vi post.sh 
+ 1868  ./post.sh | jq
+ 1869  ls
+ 1870  vi post.sh 
+ 1871  ./post.sh 
+ 1872  vi post.sh 
+ 1873  ./post.sh 
+ 1874  ./post.sh | jq
+ 1875  cd books/
+ 1876  ls
+ 1877  cd completeGuide/
+ 1878  ls
+ 1879  cd Chapter03
+ 1880  ls
+ 1881  vi *
+ 1882  q!
+ 1883  grep -r custom
+ 1884  grep -r custom_an
+ 1885  cd ..
+ 1886  grep -r custom_an
+ 1887  grep -r POST
+ 1888  grep -r POST| less
+ 1889  cd ..
+ 1890  ls
+ 1891  vi post.sh 
+ 1892  history | grep query
+ 1893  history > history.dec17
+ 1894  vi history.dec17 
+ 1895  history| grep start
+ 1896  vi start.sh
+ 1897  sudo service elasticsearch start;cd kibana-7.4.2-linux-x86_64/;./bin/kibana
+ 1898  history
+ 1899  ./bin/kibana
+ 1900  ls
+ 1901  cd es
+ 1902  ls
+ 1903  vi query1.sh 
+ 1904  ls
+ 1905  vi shakes-mapping.json 
+ 1906  ls
+ 1907  vi shakespeare_7.0.json 
+ 1908  ls
+ 1909  cp query1.sh query_line_id.sh
+ 1910  vi query_line_id.sh 
+ 1911  ./query_line_id.sh 
+ 1912  vi query_line_id.sh 
+ 1913  ./query_line_id.sh 
+ 1914  vi query_line_id.sh 
+ 1915  ./query_line_id.sh 
+ 1916  vi query_line_id.sh 
+ 1917  ./query_line_id.sh 
+ 1918  vi query_line_id.sh 
+ 1919  ./query_line_id.sh 
+ 1920  vi query_line_id.sh 
+ 1921  ./query_line_id.sh 
+ 1922  ./query_line_id.sh | wc
+ 1923  ./query_line_id.sh | less
+ 1924  ls
+ 1925  cp query_line_id.sh  query.term.sh
+ 1926  vi query.term.sh 
+ 1927  ./query_line_id.sh | less
+ 1928  vi query.term.sh 
+ 1929  ./query.term.sh 
+ 1930  vi query.term.sh 
+ 1931  ./query.term.sh 
+ 1932  vi query.term.sh 
+ 1933  ./query.term.sh 
+ 1934  vi query.term.sh 
+ 1935  ./query.term.sh 
+ 1936  ./query_line_id.sh 
+ 1937  vi query.term.sh 
+ 1938  ./query.term.sh 
+ 1939  vi query.term.sh 
+ 1940  ./query.term.sh 
+ 1941  ./query_line_id.sh 
+ 1942  vi query.term.sh 
+ 1943  ./query_line_id.sh 
+ 1944  ./query.term.sh 
+ 1945  vi query.term.sh 
+ 1946  ./query.term.sh 
+ 1947  vi query.term.sh 
+ 1948  ./query.term.sh 
+ 1949  vi query.term.sh 
+ 1950  ./query.term.sh
+ 1951  cat query.term.sh 
+ 1952  ./query.term.sh| less
+ 1953  vi query.term.sh 
+ 1954  ./query.term.sh| less
+ 1955  vi query.term.sh 
+ 1956  ./query.term.sh| less
+ 1957  vi query.term.sh 
+ 1958  ./query.term.sh| less
+ 1959  !
+ 1960  vi query.term.sh 
+ 1961  !
+ 1962  ./query.term.sh| less
+ 1963  vi query.term.sh 
+ 1964  ./query.term.sh| less
+ 1965  vi query.term.sh 
+ 1966  ./query.term.sh| less
+ 1967  vi query.term.sh 
+ 1968  ./query.term.sh| less
+ 1969  vi query.term.sh 
+ 1970  ./query.term.sh| less
+ 1971  vi query.term.sh 
+ 1972  ./query.term.sh| less
+ 1973  vi query.term.sh 
+ 1974  ./query.term.sh| less
+ 1975  vi query.term.sh 
+ 1976  ./query.term.sh| less
+ 1977  vi query.term.sh 
+ 1978  ./query.term.sh| less
+ 1979  vi query.term.sh 
+ 1980  ./query.term.sh| less
+ 1981  vi query.term.sh 
+ 1982  ./query.term.sh| less
+ 1983  vi query.term.sh 
+ 1984  pwd
+ 1985  ls
+ 1986  cd books
+ 1987  ls
+ 1988  cd completeGuide/
+ 1989  ls
+ 1990  cd Chapter04
+ 1991  ls
+ 1992  vi README.md 
+ 1993  ls
+ 1994  cd files
+ 1995  ls
+ 1996  ls -alt
+ 1997  logstash
+ 1998  cd ..
+ 1999  ls
+ 2000  vi README.md 
+ 2001  pwd
+ 2002  cd
+ 2003  cd es
+ 2004  ls
+ 2005  ls -alt
+ 2006  vi history.dec17 
+ 2007  history > history.dec18
