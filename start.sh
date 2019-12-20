@@ -8,3 +8,5 @@
 sudo service elasticsearch start; \
 sudo systemctl start logstash.service \
 ~vmadmin/kibana-7.4.2-linux-x86_64/bin/kibana
+ 2187  git add --all && git commit -m "commit message"
+ 2189  git push
